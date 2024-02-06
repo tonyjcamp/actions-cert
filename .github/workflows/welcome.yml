@@ -1,5 +1,6 @@
 name: Post welcome comment
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened]
 permissions:
